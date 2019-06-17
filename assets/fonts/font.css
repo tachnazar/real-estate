@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "JaromThai";
+  src: url("JaromThai/JaromThai-Regular.woff2") format("woff2");
+  src: url("JaromThai/JaromThai-Regular.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JaromThai";
+  src: url("JaromThai/JaromThai-Bold.woff2") format("woff2");
+  src: url("JaromThai/JaromThai-Bold.ttf") format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'CSChatThai';
+  font-style: normal;
+  font-weight: normal;
+  src: url('CSChatThaiUI/CSChatThaiUI.woff2') format('woff2'), url('../fonts/CSChatThaiUI/CSChatThaiUI.ttf') format('truetype');
+  unicode-range: U+0E01-0E5B, U+200B-200D, U+25CC;
+}
+
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Prompt Light'), local('Prompt-Light'), url('prompt/prompt-thai.woff2') format('woff2');
+  unicode-range: U+0E01-0E5B, U+200B-200D, U+25CC;
+  letter-spacing: -1px;
+}
+
+@font-face {
+  font-family: 'DBAdmanX';
+  src: url("DBAdmanX/DB-Adman-X.ttf") format('truetype');
+  line-height: 1;
+}
+
+.font-chatthai {
+  font-family: 'CSChatThai', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: unset;
+  letter-spacing: 0px;
+}
+
+.font-JaromThai {
+  font-family: "JaromThai";
+  letter-spacing: 0.3px;
+}
+
+.font-Prompt {
+  font-family: 'Prompt', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.font-DBAdmanX {
+  font-family: 'DBAdmanX', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.fa.with-text {
+  font-size: 12pt;
+}

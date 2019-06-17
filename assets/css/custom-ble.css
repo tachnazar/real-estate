@@ -1,0 +1,217 @@
+.radius-custom-circle {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+}
+
+.btn-select {
+  color: #1bb967;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+.btn-select:hover {
+  color: #ebebeb;
+  background-color: #1bb967;
+  border-color: #1bb967;
+}
+
+.btn-select:focus,
+.btn-select.focus {
+  box-shadow: 0 0 0 0.2rem rgba(27, 185, 103, 0.5);
+}
+
+.btn-select.disabled,
+.btn-select:disabled {
+  color: #1bb967;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+.btn-select:not(:disabled):not(.disabled):active,
+.btn-select:not(:disabled):not(.disabled).active,
+.show>.btn-select.dropdown-toggle {
+  color: #1bb967;
+  background-color: #b7b7b7;
+  border-color: #9e9e9e;
+}
+
+.btn-select:not(:disabled):not(.disabled):active:focus,
+.btn-select:not(:disabled):not(.disabled).active:focus,
+.show>.btn-select.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(27, 185, 103, 0.5);
+}
+
+.btn-select.active {
+  color: #ebebeb !important;
+  background-color: #1bb967 !important;
+  border-color: #1bb967 !important;
+}
+
+.form-control-custom {
+  width: 100%;
+  padding: 0rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  display: block;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.row-expand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.btn-condition {
+  color: #848484;
+  background-color: transparent;
+  border-color: #848484;
+}
+
+.btn-condition:hover {
+  color: #515151;
+  font-weight: bold;
+}
+
+.btn-condition:focus,
+.btn-condition.focus {
+  box-shadow: 0 0 0 0.2rem rgba(132, 132, 132, 0.5);
+}
+
+.btn-condition.disabled,
+.btn-condition:disabled {
+  color: #848484;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+.btn-condition:not(:disabled):not(.disabled):active,
+.btn-condition:not(:disabled):not(.disabled).active,
+.show>.btn-condition.dropdown-toggle {
+  color: #848484;
+  background-color: #b7b7b7;
+  border-color: #9e9e9e;
+}
+
+.btn-condition:not(:disabled):not(.disabled):active:focus,
+.btn-condition:not(:disabled):not(.disabled).active:focus,
+.show>.btn-condition.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(132, 132, 132, 0.5);
+}
+
+.dash {
+  border-style: dashed !important;
+}
+
+.text-abs-position {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.w-45 {
+  width: 45%;
+}
+
+.ul-no-styles {
+  list-style-type: none;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+}
+
+.condition-contain {
+  color: #848484;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  white-space: nowrap;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #848484;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.delete-condition {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-100%, -50%);
+  cursor: pointer;
+}
+
+.button-header-search.shadow {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .1), 0 3px 6px rgba(0, 0, 0, .1);
+}
+
+.detail-area {
+  height: 100px;
+}
+
+.new-label {
+  color: #fff;
+  background-color: #00aeef;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.new-label-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-60%);
+}
+
+.suggest-dorm-label {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.suggest-dorm-label-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.พฟ{
+  color:#21bb6a;
+}
+
+@media (max-width: 1199.98px) {}
+
+@media (min-width: 992px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 575.98px) {}
